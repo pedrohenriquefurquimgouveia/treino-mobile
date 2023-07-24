@@ -1,11 +1,13 @@
 @import url("style/header.css");
-
+@import url("style/banner.css");
 :root{
-    --cor-de-fundo: #EBECEE;
-    --branco: #ffffff;
-    --laranja: #EB9B00;
+    --cor-de-fundo: #ffffff;
+    --branco: #747474;
+    --laranja: #ffffff;
     --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --fonte-principal: "poppins";
+    --azul:#003099;
+    --fonte-secundario:"josefin sans"
 }
 body{
     background-color: var(--cor-de-fundo);
