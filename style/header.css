@@ -63,6 +63,10 @@
     display: none;
 }
 
+.opções{
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {}
 
 
@@ -85,7 +89,21 @@
     font-weight: 700;
 }
 
+.opções{
+    display: flex;
+}
 
+.opções__item{
+    padding: 0 1rem;
+    text-transform: uppercase;
+}
+
+.opções__link{
+    text-decoration: none;
+    color: var(--preto--);
+}
+
+.container__imagem-transparent{display: none;}
 
 
 
